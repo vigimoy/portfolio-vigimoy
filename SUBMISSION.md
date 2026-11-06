@@ -17,18 +17,25 @@ Responsive desktop/mobile layout, fixed blurred navigation, supplied profile pho
 
 The contact form validates the fields and opens a confirmation dialog containing a mailto link. Visitors send the message using their email application. No server-side email delivery or database is claimed.
 
-## Submission text
+## Submission form
 
-Hello team, here is my Portfolio 2 slicing assignment.
+Open the Google Form posted by the admin in the Slack assignment channel on 5 November 2026. Its title is **Pengumpulan Project Library**.
 
-Name: Muhamad Rizqi Akbar  
-Live website: https://vigimoy-portfolio.vercel.app  
-GitHub: https://github.com/vigimoy/portfolio-vigimoy
+| Form field | Value |
+| --- | --- |
+| Nama Lengkap | Muhamad Rizqi Akbar |
+| Email | muhamadrizqiakbar2009@gmail.com |
+| Link Github Repository | https://github.com/vigimoy/portfolio-vigimoy |
+| Link Deploy Project | https://vigimoy-portfolio.vercel.app |
+| Tech Stack yang digunakan | Next.js, React, TypeScript, Tailwind CSS, Framer Motion, Radix Dialog |
+| Catatan tambahan | Portfolio 2 includes responsive layouts, fixed navigation, three live projects, an interactive FAQ, and a contact form that prepares an email draft. |
 
-Built with Next.js, React, TypeScript, Tailwind CSS, and Framer Motion. The portfolio includes responsive layouts, project screenshots, and links to the live applications.
+Review the MVP self-assessment against the instructor's guide before submitting.
 
-## Final handoff
+## Final review
 
-Deadline from the supplied Slack announcement: 6 November 2026, 23:59 WIB. Submit the links through the instructor's requested channel. This document is a draft; no submission message has been sent.
+The public site, repository, and three demo addresses responded successfully on 6 November 2026. Desktop project links, navigation and FAQ at 393px and 320px, the contact email draft, and sharing metadata passed browser checks. The Sociality card uses https://sociality-vigimoy.vercel.app.
 
-GitHub-to-Vercel automatic deployment is not connected. The portfolio release was requested directly from its GitHub commit. Personal profile copy can be refined later without blocking this submission.
+The production build used a direct upload of the tracked source from commit `da3f8b3`. Future releases require a deployment step until automatic Git integration is enabled.
+
+Submit the form by **6 November 2026 at 23:59 WIB**.
