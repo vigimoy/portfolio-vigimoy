@@ -20,6 +20,7 @@ import {
 } from "lucide-react";
 import { profile, projects, skills, journey, faqs } from "@/lib/content";
 import { Button } from "./ui/button";
+import { HeroBadge } from "./hero-badge";
 
 const nav = [
   ["About", "about"],
@@ -356,38 +357,7 @@ export default function Portfolio() {
               Explore my work <ArrowDown size={14} />
             </a>
           </div>
-          <motion.div
-            className="badge"
-            animate={{ rotate: [0, 1.3, 0, -1, 0] }}
-            transition={{ duration: 9, repeat: Infinity, ease: "easeInOut" }}
-          >
-            <div className="badge-base">
-              <Image
-                src="/assets/9d9de.png"
-                alt=""
-                width={1024}
-                height={1536}
-                priority
-              />
-            </div>
-            <div className="badge-identity">
-              <span>FRONT-END DEVELOPER</span>
-              <strong>
-                Muhamad
-                <br />
-                Rizqi Akbar<span>.</span>
-              </strong>
-            </div>
-            <div className="badge-photo">
-              <Image
-                src="/assets/foto-1.jpeg"
-                alt="Portrait of Muhamad Rizqi Akbar"
-                fill
-                priority
-                sizes="(max-width: 700px) 252px, 341px"
-              />
-            </div>
-          </motion.div>
+          <HeroBadge />
         </section>
         <div
           className="marquee"
