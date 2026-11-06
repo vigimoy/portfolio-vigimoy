@@ -31,4 +31,4 @@ Built with Next.js, React, TypeScript, Tailwind CSS, and Framer Motion. The port
 
 Deadline from the supplied Slack announcement: 6 November 2026, 23:59 WIB. Submit the links through the instructor's requested channel. This document is a draft; no submission message has been sent.
 
-GitHub-to-Vercel automatic deployment is not connected. Source uploads are used for this release. Personal profile copy can be refined later without blocking this submission.
+GitHub-to-Vercel automatic deployment is not connected. The portfolio release was requested directly from its GitHub commit. Personal profile copy can be refined later without blocking this submission.

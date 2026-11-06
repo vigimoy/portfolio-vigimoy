@@ -50,6 +50,6 @@ The Figma Starter quota still prevents fresh machine-readable mobile design cont
 
 ## Deployment and submission
 
-Vercel project: `portfolio-vigimoy` in the Vigimoy team. Framework: Next.js; Node.js 24; root directory: repository root. No environment variables are required. Source is uploaded directly; automatic deployment from GitHub requires linking the repository in Vercel.
+Vercel project: `portfolio-vigimoy` in the Vigimoy team. Framework: Next.js; Node.js 24; root directory: repository root. No environment variables are required. The production build uses a specific commit from this public repository. To deploy future pushes automatically, link the repository in Vercel.
 
 The Slack announcement specifies 6 November 2026 at 23:59 WIB. The older PDF date differs. Submission requires a public GitHub repository and a live demo. Use the portfolio and repository links above for submission. See SUBMISSION.md for the handoff checklist and LIVE-DEMO.md for project hosting records.
