@@ -350,6 +350,9 @@ em {
   color: var(--accent);
 }
 .badge-photo {
+  display: grid;
+  place-items: center;
+  background: #dce4e6;
   position: absolute;
   top: 294px;
   left: 0;
@@ -358,9 +361,9 @@ em {
   border-radius: 0 0 18px 18px;
   overflow: hidden;
 }
-.badge-photo img {
-  object-fit: cover;
-  object-position: center 48%;
+.badge-photo svg {
+  width: 54%;
+  height: auto;
 }
 .marquee {
   height: 108px;

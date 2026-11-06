@@ -61,7 +61,7 @@ export function HeroBadge() {
       <motion.button
         type="button"
         className="badge-swing"
-        aria-label="Swing Muhamad Rizqi Akbar’s photo badge"
+        aria-label="Swing Muhamad Rizqi Akbar’s profile badge"
         title="Drag or tap the badge"
         style={{ rotate: rotation, scaleY: stretch }}
         onPointerDown={(event) => beginPull(event.clientY)}
@@ -83,9 +83,12 @@ export function HeroBadge() {
           <span>FRONT-END DEVELOPER</span>
           <strong>Muhamad<br />Rizqi Akbar<span>.</span></strong>
         </span>
-        <span className="badge-photo">
-          <Image src="/assets/foto-1.jpeg" alt="Portrait of Muhamad Rizqi Akbar" fill priority
-            sizes="(max-width: 700px) 252px, 341px" draggable={false} />
+        <span className="badge-photo" aria-hidden="true">
+          <svg viewBox="0 0 120 120" focusable="false">
+            <circle cx="60" cy="60" r="60" fill="#9eafb3" />
+            <circle cx="60" cy="44" r="20" fill="#f5f8f8" />
+            <path d="M22 92c4-17 19-26 38-26s34 9 38 26a49 49 0 0 1-76 0Z" fill="#f5f8f8" />
+          </svg>
         </span>
       </motion.button>
     </div>

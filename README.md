@@ -25,7 +25,7 @@ Open http://localhost:3000. To check a production build, run `npm run build` the
 
 Edit `lib/content.ts` for profile details, project links, skills, learning timeline, and FAQ answers. Section copy and interaction logic are in `components/portfolio.tsx`. Styling is in `app/globals.css`.
 
-- The hero card uses the supplied Foto1 at `public/assets/foto-1.jpeg`. The About section uses Foto2 at `public/assets/foto-2.jpeg`. CSS object positioning crops both photos for their containers. The small hero portrait retains `public/assets/rizqi.png`. Personal portraits have been removed from FAQ and Built Through Practice.
+- The interactive hero badge displays a generic profile silhouette. The About section uses Foto2 at `public/assets/foto-2.jpeg`.  The small hero portrait retains `public/assets/rizqi.png`. Personal portraits have been removed from FAQ and Built Through Practice.
 - Movie Explorer and Foody link to the supplied public `vigimoy` repositories. Their descriptions and technology tags were checked against the repositories. Both apps have public Vercel demos configured in `lib/content.ts`: https://movie-explorer-vigimoy.vercel.app and https://foody-vigimoy.vercel.app. Repository and live-demo links are separate.
 - Sociality is included as a third project based on the user's public repository, matching the three project slots in the design.
 - Project covers use supplied WebP screenshots in `public/assets/projects`: Movie Explorer and Foody home pages, and a Sociality public profile/gallery. Screenshots are cropped in CSS to preserve the square cover layout. The Sociality profile is sample application content, not the portfolio owner's identity.
