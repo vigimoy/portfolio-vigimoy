@@ -355,10 +355,9 @@ em {
   background: #dce4e6;
   position: absolute;
   top: 294px;
-  left: 0;
-  right: 0;
-  height: 377px;
-  border-radius: 0 0 18px 18px;
+  inset-inline: 4%;
+  bottom: 2%;
+  border-radius: 0.65rem;
   overflow: hidden;
 }
 .badge-photo svg {
@@ -1153,7 +1152,6 @@ footer {
   }
   .badge-photo {
     top: 250px;
-    height: 321px;
   }
   .about-grid {
     grid-template-columns: 38% 1fr;
@@ -1276,8 +1274,6 @@ footer {
   }
   .badge-photo {
     top: 225px;
-    height: 271px;
-    border-radius: 0 0 14px 14px;
   }
   .marquee {
     height: 62px;
